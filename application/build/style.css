@@ -6,11 +6,3 @@ section {
     grid-template-rows: 1fr 2fr 1fr 2fr 4fr;
 }
 
-.col {
-    border-left: 1px solid red;
-}
-
-.col:last-child {
-    border-right: 1px solid red;
-}
-

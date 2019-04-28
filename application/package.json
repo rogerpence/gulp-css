@@ -10,11 +10,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-css": "^4.1.11",
     "gulp": "^4.0.1",
     "gulp-postcss": "^8.0.0",
     "gulp-purgecss": "^1.1.1",
     "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.5",
     "tailwindcss": "^1.0.0-beta.5"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4"
   }
 }
