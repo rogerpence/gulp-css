@@ -24,7 +24,7 @@ if [ $# -gt 0 ]; then
 
     elif [ "$1" == "tailwind-version" ]; then
         shift 1
-        docker-compose run --rm nodebox node_modules/.bin/tailwind --version
+        docker-compose run --rm nodejs node_modules/.bin/tailwind --version
 
     elif [ "$1" == "node-version" ]; then
         shift 1
